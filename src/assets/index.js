@@ -1,0 +1,25 @@
+import ariesImage from './aries.jpeg';
+import taurusImage from './taurus.jpeg';
+import geminiImage from './gemini.jpeg';
+import cancerImage from './cancer.jpeg';
+import leoImage from './leo.jpeg';
+import virgoImage from './virgo.jpeg';
+import libraImage from './libra.jpeg';
+import scorpioImage from './scorpio.jpeg';
+import sagittariusImage from './sagittarius.jpeg';
+import capricornImage from './capricorn.jpeg';
+import aquariusImage from './aquarius.jpeg';
+import piscesImage from './pisces.jpeg';
+
+export const aries = ariesImage;
+export const taurus = taurusImage;
+export const gemini = geminiImage;
+export const cancer = cancerImage;
+export const leo = leoImage;
+export const virgo = virgoImage;
+export const libra = libraImage;
+export const scorpio = scorpioImage;
+export const sagittarius = sagittariusImage;
+export const capricorn = capricornImage;
+export const aquarius = aquariusImage;
+export const pisces = piscesImage;
