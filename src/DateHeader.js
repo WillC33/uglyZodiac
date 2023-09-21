@@ -14,12 +14,12 @@ const DateHeader = () => {
     });
 
     useEffect(() => {
-        console.log(selectedTimestamp)
         if (selectedTimestamp === "") return;
 
         const timestamp = parseInt(selectedTimestamp, 10);
         const toDateString = new Date(timestamp * 1000);
         setDate(dateFormatter.format(toDateString));
+        //eslint-disable-next-line
     }, [selectedTimestamp]);
 
     useEffect(() => {
